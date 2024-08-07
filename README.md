@@ -18,6 +18,11 @@ Instruções para execução do código:
 - 3. `python process_datya.py [source_folder][dest_folder]`
 - 4. `python construct_instruction_dataset.py [source_folder][dest_folder]`
 
+Obs.: para rodar o script `pdf2textbr.py` é necessário instalar as seguintes ferramentas:
+- Tesseract: ferramenta que realiza o OCR de imagens
+- Xpdf: conjunto de ferramenta que extrai diversas informações de um arquivo em pdf, dentre essas, extrai texto. 
+
+
 
 Endereço notebook do fine-tuning: [notebook](https://colab.research.google.com/drive/12SzVlFDMoXudh10r3AlhGkwjkAMv39OF#scrollTo=PW88AtmWNi0R)
 
